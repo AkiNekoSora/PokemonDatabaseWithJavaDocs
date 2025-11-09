@@ -4,7 +4,6 @@
 package org.pokemondatabase.exceptions;
 
 /**
- * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Exception class used when a user tries to enter a duplicate type.
  * </p>

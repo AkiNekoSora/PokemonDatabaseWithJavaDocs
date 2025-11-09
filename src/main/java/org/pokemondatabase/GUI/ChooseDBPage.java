@@ -9,11 +9,10 @@ import java.awt.event.ActionEvent;
 import java.io.File;
 
 /**
- * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Used to let the user choose what database they would like to connect to.
  * </p>
- * <header>IMPORTANT DEPENDENCIES</header>
+ * <h2>IMPORTANT DEPENDENCIES</h2>
  * <ul>
  *     <li>MainMenuPage: The user will only be sent here if a DB has not been chosen.</li>
  *     <li>GuiHelper: Used to create the base panel and add important items to the page.</li>

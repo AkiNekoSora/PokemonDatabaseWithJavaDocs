@@ -11,12 +11,11 @@ import javax.swing.JLayeredPane;
 import org.pokemondatabase.DBHelper.DBHelper;
 
 /**
- * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Used to let the user choose what they would like to do in the system. Contains buttons to go
  * to FileOrManualAddPage, ListPage, ComparePage, CheckNextEvoPage
  * </p>
- * <header>IMPORTANT DEPENDENCIES</header>
+ * <h2>IMPORTANT DEPENDENCIES</h2>
  * <ul>
  *     <li>GuiHelper: Used to create the base panel and add important items to the page.</li>
  * </ul>

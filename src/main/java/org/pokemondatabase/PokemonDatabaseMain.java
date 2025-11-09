@@ -5,7 +5,7 @@ package org.pokemondatabase;
 import org.pokemondatabase.GUI.MainMenuPage;
 
 /**
- * <header>PURPOSE OF THE ENTIRE PROJECT</header>
+ * <h2>PURPOSE OF THE ENTIRE PROJECT</h2>
  * <p>
  *  The object of this project is to allow a user to enter information about a single Pokémon
  *  and will hold a list of Pokémon. It allows users to add Pokémon using the GUI or a txt

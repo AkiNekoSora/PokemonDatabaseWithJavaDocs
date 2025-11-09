@@ -4,7 +4,6 @@
 package org.pokemondatabase.exceptions;
 
 /**
- * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Exception class used when a txt file line does not match the required amount of variables.
  * </p>

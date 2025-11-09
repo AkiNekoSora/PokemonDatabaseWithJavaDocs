@@ -4,11 +4,10 @@
 package org.pokemondatabase;
 
 /**
- * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Used to hold a boolean and String for results
  * </p>
- * <header>IMPORTANT DEPENDENCIES</header>
+ * <h2>IMPORTANT DEPENDENCIES</h2>
  * <ul>
  *     <li>PokemonManager: Calls this class to pass around results and Pokemon</li>
  * </ul>

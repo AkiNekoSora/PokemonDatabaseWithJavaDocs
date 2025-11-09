@@ -9,12 +9,11 @@ import java.awt.*;
 import java.util.List;
 
 /**
- * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Displays Pokémon information to the GUI. Allows the user to Update information, change if the
  * Pokémon has been caught or not and delete the Pokémon
  * </p>
- * <header>IMPORTANT DEPENDENCIES</header>
+ * <h2>IMPORTANT DEPENDENCIES</h2>
  * <ul>
  *     <li>
  *         GuiHelper: Used to create the base panel and add important items to the page. And the

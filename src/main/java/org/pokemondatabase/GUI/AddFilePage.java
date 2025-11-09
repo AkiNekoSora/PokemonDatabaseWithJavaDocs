@@ -15,13 +15,12 @@ import org.pokemondatabase.PokemonManager;
 import org.pokemondatabase.ValidationResults;
 
 /**
- * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Purpose: Used to create the file page for the GUI. Allows the user to add a file to the system
  * and sorts through the lines to enter Pokémon into the database. Returns errors to the screen
  * if there are any issues.
  * </p>
- * <header>IMPORTANT DEPENDENCIES</header>
+ * <h2>IMPORTANT DEPENDENCIES</h2>
  * <ul>
  *     <li>PokemonManager: Uses quite a few methods to test if the information given was valid.</li>
  *     <li>GuiHelper: Used to create the base panel and add important items to the page.</li>

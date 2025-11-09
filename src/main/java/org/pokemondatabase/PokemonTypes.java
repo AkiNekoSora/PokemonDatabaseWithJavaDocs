@@ -5,12 +5,11 @@ package org.pokemondatabase;
 import org.pokemondatabase.exceptions.InvalidPokemonTypeException;
 
 /**
- * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * A class used to hold the group of Type constants. Contains all possible Pokémon types. A
  * Pokémon could have up to two types.
  * </p>
- * <header>IMPORTANT DEPENDENCIES</header>
+ * <h2>IMPORTANT DEPENDENCIES</h2>
  * <ul>
  *     <li>PokemonTypesManager: Called by the class to collect the Types</li>
  * </ul>

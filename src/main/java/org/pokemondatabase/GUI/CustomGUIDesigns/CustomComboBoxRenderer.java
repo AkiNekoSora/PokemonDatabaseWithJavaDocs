@@ -7,19 +7,14 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Extends DefaultListCellRenderer
  * Used to change how the JList elements are displayed (Drop-Down and Pokémon List)
  * </p>
- * <header>IMPORTANT DEPENDENCIES</header>
+ * <h2>IMPORTANT DEPENDENCIES</h2>
  * <ul>
  *     <li>GuiHelper: Called by this class to create the combo box renderer.</li>
  *     <li>DefaultListCallRender: Extends this class.</li>
- * </ul>
- * <header>CONTAINS</header>
- * <ul>
- *      <li>Override getListCellRendererComponent</li>
  * </ul>
  */
 public class CustomComboBoxRenderer extends DefaultListCellRenderer {

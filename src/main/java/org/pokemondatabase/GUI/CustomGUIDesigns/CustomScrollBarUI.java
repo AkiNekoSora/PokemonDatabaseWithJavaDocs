@@ -8,24 +8,14 @@ import javax.swing.plaf.basic.BasicScrollBarUI;
 import java.awt.*;
 
 /**
- * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Used to create a custom scroll bar and the track for the lists.
  * </p>
- * <header>IMPORTANT DEPENDENCIES</header>
+ * <h2>IMPORTANT DEPENDENCIES</h2>
  * <ul>
  *     <li>GuiHelper: Called by this class to create the scroll bar.</li>
  *     <li>CustomComboBoxUI: Called by this class to create the scroll bar.</li>
  *     <li>BasicScrollBarUI: Extends this class.</li>
- * </ul>
- * <header>CONTAINS</header>
- * <ul>
- *      <li>configureScrollBarColors</li>
- *      <li>paintThumb</li>
- *      <li>getPreferredSize</li>
- *      <li>paintTrack</li>
- *      <li>createDecreaseButton</li>
- *      <li>createIncreaseButton</li>
  * </ul>
  */
 public class CustomScrollBarUI extends BasicScrollBarUI {

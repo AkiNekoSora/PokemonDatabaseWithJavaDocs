@@ -15,12 +15,11 @@ import javax.swing.JTextField;
 import org.pokemondatabase.Pokemon;
 
 /**
- * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Used to let the user add two Pokédex numbers. Calculates who is taller and heavier. Then sends
  * the results and changes to the success page.
  * </p>
- * <header>IMPORTANT DEPENDENCIES</header>
+ * <h2>IMPORTANT DEPENDENCIES</h2>
  * <ul>
  *     <li>GuiHelper: Used to create the base panel and add important items to the page.</li>
  * </ul>

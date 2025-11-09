@@ -8,12 +8,11 @@ import java.sql.*;
 import java.util.ArrayList;
 
 /**
- * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Used as a base to be able to connect and close the database, and has methods that can be
  * called by both subclasses to interact with database tables.
  * </p>
- * <header>IMPORTANT DEPENDENCIES</header>
+ * <h2>IMPORTANT DEPENDENCIES</h2>
  * <ul>
  *     <li>
  *         MainMenuPage: Calls this class so that it can be used by all other classes as the

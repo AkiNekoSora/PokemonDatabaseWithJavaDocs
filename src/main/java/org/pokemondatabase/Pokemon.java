@@ -8,7 +8,6 @@ import java.math.BigDecimal;
 import java.util.Objects;
 
 /**
- * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Used to create a new Pokémon.
  * </p>

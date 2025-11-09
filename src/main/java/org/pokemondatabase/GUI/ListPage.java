@@ -19,12 +19,11 @@ import org.pokemondatabase.Pokemon;
 import static java.lang.Integer.parseInt;
 
 /**
- * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Used to show the user the list of Pokémon, and lets them search for a specific
  * Pokémon or click on a Pokémon and go to their Information page.
  * </p>
- * <header>IMPORTANT DEPENDENCIES</header>
+ * <h2>IMPORTANT DEPENDENCIES</h2>
  * <ul>
  *     <li>
  *         GuiHelper: Used to create the base panel and add important items to the page. The

@@ -7,21 +7,14 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Used to create a custom arrow for the drop-down and Pokémon List. Changes the button direction
  * based on the direction sent to the constructor.
  * </p>
- * <header>IMPORTANT DEPENDENCIES</header>
+ * <h2>IMPORTANT DEPENDENCIES</h2>
  * <ul>
  *     <li>CustomComboBoxUI: Called by this class to create the scroll bar arrow.</li>
  *     <li>JButton: Extends this class.</li>
- * </ul>
- * <header>CONTAINS</header>
- * <ul>
- *      <li>Constructor</li>
- *      <li>paintComponent</li>
- *      <li>getPreferredSize</li>
  * </ul>
  */
 class CustomScrollBarArrowButton extends JButton {

@@ -4,12 +4,11 @@
 package org.pokemondatabase;
 
 /**
- * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Used for the colors so that it can make it easier to understand the options and titles in the
  * CMI.
  * </p>
- * <header>IMPORTANT DEPENDENCIES</header>
+ * <h2>IMPORTANT DEPENDENCIES</h2>
  * <ul>
  *     <li>All CLI classes: Call this to make the CLI text a bit easier to read.</li>
  * </ul>

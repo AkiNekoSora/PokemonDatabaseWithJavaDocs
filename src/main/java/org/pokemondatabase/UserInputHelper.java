@@ -9,16 +9,15 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
- * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Used for all the methods that accept user Input. Checks in the input includes any digits or
  * spaces. Checks if the input is a digit or period.
  * </p>
- * <header>IMPORTANT DEPENDENCIES</header>
+ * <h2>IMPORTANT DEPENDENCIES</h2>
  * <ul>
  *     <li>PokemonManager: Calls this class to collect user input.</li>
  * </ul>
- * <header>Includes methods that get these things from the user:</header>
+ * <h2>Includes methods that get these things from the user:</h2>
  * <ul>
  * <li>An Int</li>
  * <li>An Int in a specified range (With or without a specific error message)</li>

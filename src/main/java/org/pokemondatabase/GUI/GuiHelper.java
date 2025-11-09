@@ -22,11 +22,10 @@ import org.pokemondatabase.PokemonTypesManager;
 import static java.lang.Integer.parseInt;
 
 /**
- * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Used to be called by all GUI pages to perform necessary GUI designs and processes.
  * </p>
- * <header>IMPORTANT DEPENDENCIES</header>
+ * <h2>IMPORTANT DEPENDENCIES</h2>
  * <ul>
  *     <li>
  *         All other pages: All GUI pages call this helper to create base panels, buttons, text,

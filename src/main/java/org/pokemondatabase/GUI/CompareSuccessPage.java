@@ -7,11 +7,10 @@ import java.awt.Container;
 import javax.swing.*;
 
 /**
- * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Used to display the success results from Comparison Page
  * </p>
- * <header>IMPORTANT DEPENDENCIES</header>
+ * <h2>IMPORTANT DEPENDENCIES</h2>
  * <ul>
  *     <li>ComparePage: Sends the user to this page if the comparison is successful.</li>
  *     <li>GuiHelper: Used to create the base panel and add important items to the page.</li>

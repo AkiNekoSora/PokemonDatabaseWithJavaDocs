@@ -8,11 +8,10 @@ import javax.swing.JButton;
 import javax.swing.JLayeredPane;
 
 /**
- * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Used to display the success results from uploading a file with Pokémon
  * </p>
- * <header>IMPORTANT DEPENDENCIES</header>
+ * <h2>IMPORTANT DEPENDENCIES</h2>
  * <ul>
  *     <li>AddFilePage: Sends the user here with success text.</li>
  *     <li>GuiHelper: Used to create the base panel and add important items to the page.</li>

@@ -11,12 +11,11 @@ import javax.swing.*;
 import org.pokemondatabase.*;
 
 /**
- * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Has all the information of the Pokémon in editable text fields or dropdowns. Allows the user
  * to change information and when they submit it changes the Pokémon information in the list.
  * </p>
- * <header>IMPORTANT DEPENDENCIES</header>
+ * <h2>IMPORTANT DEPENDENCIES</h2>
  * <ul>
  *     <li>PokemonInfoPage: Used to send the User to this page</li>
  *     <li>GuiHelper: Used to create the base panel and add important items to the page.</li>
