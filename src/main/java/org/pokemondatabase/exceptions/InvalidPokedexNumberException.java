@@ -4,7 +4,10 @@
 package org.pokemondatabase.exceptions;
 
 /**
+ * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <p>
  * Exception class used when a user enters an invalid Pokédex Number.
+ * </p>
  */
 public class InvalidPokedexNumberException extends RuntimeException {
     /**

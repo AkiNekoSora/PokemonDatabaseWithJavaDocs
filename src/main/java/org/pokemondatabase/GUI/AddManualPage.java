@@ -12,9 +12,17 @@ import javax.swing.*;
 import org.pokemondatabase.*;
 
 /**
+ * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <p>
  * Used to create the add manual page for the GUI. Allows the user to enter data for the Pokémon
  * and validates all information given. Returns errors to the screen if there are any issues.
- * Contains:
+ * </p>
+ * <h>IMPORTANT DEPENDENCIES</h>
+ * <ul>
+ *     <li>PokemonManager: Uses quite a few methods to test if the information given was valid.</li>
+ *     <li>GuiHelper: Used to create the base panel and add important items to the page.</li>
+ * </ul>
+ * <h>CONTAINS</h>
  * <ul>
  * <li>Constructor - Builds the base design using GUI helper</li>
  * <li>hideErrors - hides all error messages</li>

@@ -6,7 +6,7 @@ package org.pokemondatabase;
 import java.util.List;
 
 /**
- * Note: All methods have been comments out to avoid any issues with the updates to the GUI
+ * <h>PURPOSE/PRIMARY FUNCTION</h>
  * <ul>
  * <li>Used to start the system.</li>
  * <li>Prints the Pokémon database main menu.</li>
@@ -14,6 +14,7 @@ import java.util.List;
  * <li>Calls the method based on the user input.</li>
  * <li>Uses methods from Pokémon Manager</li>
  * </ul>
+ * <p>Note: All methods have been comments out to avoid any issues with the updates to the GUI</p>
  */
 public class PokemonDatabaseMenu {
     Text text = new Text();

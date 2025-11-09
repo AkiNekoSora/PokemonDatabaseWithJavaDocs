@@ -13,9 +13,16 @@ import javax.swing.JTextField;
 import org.pokemondatabase.Pokemon;
 
 /**
+ * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <p>
  * Used to let the user add a Pokédex number and the current level. Calculates the
  * results. Then sends the results and changes to the success page.
- * Contains:
+ * </p>
+ * <h>IMPORTANT DEPENDENCIES</h>
+ * <ul>
+ *     <li>GuiHelper: Used to create the base panel and add important items to the page.</li>
+ * </ul>
+ * <h>CONTAINS</h>
  * <ul>
  * <li>Constructor - Builds the base design using GUI helper</li>
  * <li>handleSubmission - handles the processes for the user input file</li>

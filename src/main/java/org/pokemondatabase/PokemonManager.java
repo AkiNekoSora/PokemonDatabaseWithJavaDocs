@@ -17,10 +17,17 @@ import org.pokemondatabase.exceptions.InvalidPokedexNumberException;
 import org.pokemondatabase.exceptions.InvalidPokemonTypeException;
 
 /**
- * <p>Used for all the methods that interact with the Pokémon Class. Uses the userInputHelper
- * class to loop until the user gives a valid input. Uses Text class to color the output to look
- * nicer in the CLI
- * Includes methods that allow the user to:
+ <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <p>
+ *     Used for all the methods that interact with the Pokémon Class. Uses the userInputHelper
+ *     class to loop until the user gives a valid input. Uses Text class to color the output to
+ *     look nicer in the CLI
+ * </p>
+ * <h>IMPORTANT DEPENDENCIES</h>
+ * <ul>
+ *     <li>UserInputHelper: Called throughout to get user information for the CLI</li>
+ * </ul>
+ * <h>Includes methods that allow the user to:</h>
  * <ul>
  * <li>Add a Pokémon using the CMI</li>
  * <li>Uses methods in this class that add each item before using them to create new Pokémon and

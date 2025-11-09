@@ -22,8 +22,18 @@ import org.pokemondatabase.PokemonTypesManager;
 import static java.lang.Integer.parseInt;
 
 /**
+ * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <p>
  * Used to be called by all GUI pages to perform necessary GUI designs and processes.
- * Contains:
+ * </p>
+ * <h>IMPORTANT DEPENDENCIES</h>
+ * <ul>
+ *     <li>
+ *         All other pages: All GUI pages call this helper to create base panels, buttons, text,
+ *         and all other important items.
+ *     </li>
+ * </ul>
+ * <h>CONTAINS</h>
  * <ul>
  * <li>Constructor - Builds the base design using GUI helper</li>
  * <li>getFont - Used to get font</li>

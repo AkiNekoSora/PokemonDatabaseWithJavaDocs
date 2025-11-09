@@ -8,11 +8,20 @@ import java.sql.*;
 import java.util.ArrayList;
 
 /**
+ * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <p>
  * Used as a base to be able to connect and close the database, and has methods that can be
  * called by both subclasses to interact with database tables.
- * Contains: execute, executeQueryToTable, and executeQuery methods that both subclasses use to
- * be able to interact with the database. (Both other classes use "super" to use these methods.)
- * Created using the SQLHelper GUI. Changes made to make it work for my needs!
+ * </p>
+ * <h>IMPORTANT DEPENDENCIES</h>
+ * <ul>
+ *     <li>
+ *         MainMenuPage: Calls this class so that it can be used by all other classes as the
+ *         MainMenyPage is passed around
+ *     </li>
+ *     <li>ChooseDBHelper: Collects the DB path to connect with this DBHelper.</li>
+ * </ul>
+ * <h2>Created using the SQLHelper GUI. Changes made to make it work for my needs!</h2>
  */
 public class DBHelper {
 	private String DATABASE_NAME;

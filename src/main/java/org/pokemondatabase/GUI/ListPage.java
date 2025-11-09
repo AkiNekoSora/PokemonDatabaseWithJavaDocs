@@ -18,15 +18,26 @@ import org.pokemondatabase.Pokemon;
 
 import static java.lang.Integer.parseInt;
 
-/*
+/**
+ * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <p>
  * Used to show the user the list of Pokémon, and lets them search for a specific
  * Pokémon or click on a Pokémon and go to their Information page.
- * Contains:
+ * </p>
+ * <h>IMPORTANT DEPENDENCIES</h>
  * <ul>
- * <li>Constructor - Builds the base design using GUI helper</li>
- * <li>handleSubmission - handles the processes for the user input file</li>
- * <li>IsDigit</li>
- * <li>getMainPanel - returns the main panel for this page</li>
+ *     <li>
+ *         GuiHelper: Used to create the base panel and add important items to the page. The
+ *         GuiHelper also take the database and creates a list to display on the page and creates
+ *         the buttons for each Pokémon.
+ *     </li>
+ * </ul>
+ * <h>CONTAINS</h>
+ * <ul>
+ *      <li>Constructor - Builds the base design using GUI helper</li>
+ *      <li>handleSubmission - handles the processes for the user input file</li>
+ *      <li>IsDigit</li>
+ *      <li>getMainPanel - returns the main panel for this page</li>
  * </u>
  */
 public class ListPage {

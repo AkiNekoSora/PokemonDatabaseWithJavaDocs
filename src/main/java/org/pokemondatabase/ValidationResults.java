@@ -4,8 +4,15 @@
 package org.pokemondatabase;
 
 /**
+ * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <p>
  * Used to hold a boolean and String for results
- * Contains:
+ * </p>
+ * <h>IMPORTANT DEPENDENCIES</h>
+ * <ul>
+ *     <li>PokemonManager: Calls this class to pass around results and Pokemon</li>
+ * </ul>
+ * <h>CONTAINS</h>
  * <ul>
  * <li>Constructor</li>
  * <li>Overloaded Constructor</li>

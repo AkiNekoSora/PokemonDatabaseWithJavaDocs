@@ -4,7 +4,10 @@
 package org.pokemondatabase.exceptions;
 
 /**
+ * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <p>
  * Exception class used when a txt file line does not match the required amount of variables.
+ * </p>
  */
 public class IncorrectVariableAmountException extends RuntimeException {
 

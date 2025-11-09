@@ -8,9 +8,17 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.io.File;
 
-/*
+/**
+ * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <p>
  * Used to let the user choose what database they would like to connect to.
- * Contains:
+ * </p>
+ * <h>IMPORTANT DEPENDENCIES</h>
+ * <ul>
+ *     <li>MainMenuPage: The user will only be sent here if a DB has not been chosen.</li>
+ *     <li>GuiHelper: Used to create the base panel and add important items to the page.</li>
+ * </ul>
+ * <h>CONTAINS</h>
  * <ul>
  * <li>Constructor - Builds the base design using GUI helper</li>
  * <li>getMainPanel - returns the main panel for this page</li>

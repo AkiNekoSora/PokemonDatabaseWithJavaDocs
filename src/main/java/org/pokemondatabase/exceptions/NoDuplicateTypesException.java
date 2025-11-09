@@ -4,7 +4,10 @@
 package org.pokemondatabase.exceptions;
 
 /**
+ * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <p>
  * Exception class used when a user tries to enter a duplicate type.
+ * </p>
  */
 public class NoDuplicateTypesException extends RuntimeException {
     /**

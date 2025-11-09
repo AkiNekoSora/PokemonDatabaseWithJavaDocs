@@ -10,9 +10,16 @@ import javax.swing.*;
 import org.pokemondatabase.Pokemon;
 
 /**
+ * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <p>
  * Used to ask the user if they are sure they want to delete. If accepted, it deletes
  * the Pokémon from the system and moves to the Delete Success Page
- * Contains:
+ * </p>
+ * <h>IMPORTANT DEPENDENCIES</h>
+ * <ul>
+ *     <li>GuiHelper: Used to create the base panel and add important items to the page.</li>
+ * </ul>
+ * <h>CONTAINS</h>
  * <ul>
  * <li>Constructor - Builds the base design using GUI helper</li>
  * <li>getMainPanel - returns the main panel for this page</li>

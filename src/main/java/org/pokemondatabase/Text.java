@@ -4,8 +4,15 @@
 package org.pokemondatabase;
 
 /**
+ * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <p>
  * Used for the colors so that it can make it easier to understand the options and titles in the
  * CMI.
+ * </p>
+ * <h>IMPORTANT DEPENDENCIES</h>
+ * <ul>
+ *     <li>All CLI classes: Call this to make the CLI text a bit easier to read.</li>
+ * </ul>
  */
 public class Text {
     public final String RESET = "\u001B[0m";

@@ -8,10 +8,20 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.List;
 
-/*
- * Displays Pokémon information to the GUI. Allows the user to Update information,
- * change if the Pokémon has been caught or not and delete the Pokémon
- * Contains:
+/**
+ * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <p>
+ * Displays Pokémon information to the GUI. Allows the user to Update information, change if the
+ * Pokémon has been caught or not and delete the Pokémon
+ * </p>
+ * <h>IMPORTANT DEPENDENCIES</h>
+ * <ul>
+ *     <li>
+ *         GuiHelper: Used to create the base panel and add important items to the page. And the
+ *         button to this page is created by the GuiHelper as well.
+ *     </li>
+ * </ul>
+ * <h>CONTAINS</h>
  * <ul>
  * <li>Constructor - Builds the base design using GUI helper</li>
  * <li>getMainPanel - returns the main panel for this page</li>

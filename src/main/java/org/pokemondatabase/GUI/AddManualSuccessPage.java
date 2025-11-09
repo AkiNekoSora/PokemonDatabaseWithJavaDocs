@@ -8,8 +8,16 @@ import javax.swing.JButton;
 import javax.swing.JLayeredPane;
 
 /**
+ * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <p>
  * Used to display the success results from adding a Pokémon using the GUI
- * Contains:
+ * </p>
+ * <h>IMPORTANT DEPENDENCIES</h>
+ * <ul>
+ *     <li>AddManualSuccessPage: Sends user here with the success text.</li>
+ *     <li>GuiHelper: Used to create the base panel and add important items to the page.</li>
+ * </ul>
+ * <h>CONTAINS</h>
  * <ul>
  * <li>Constructor - Builds the base design using GUI helper</li>
  * <li>getMainPanel - returns the main panel for this page</li>

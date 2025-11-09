@@ -5,8 +5,15 @@ package org.pokemondatabase;
 import org.pokemondatabase.exceptions.InvalidPokemonTypeException;
 
 /**
+ * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <p>
  * A class used to hold the group of Type constants.
- * Methods:
+ * </p>
+ * <h>IMPORTANT DEPENDENCIES</h>
+ * <ul>
+ *     <li>PokemonTypesManager: Called by the class to collect the Types</li>
+ * </ul>
+ * <h>CONTAINS</h>
  * <ul>
  * <li>toString method used to print the Type.</li>
  * <li>fromString method used to obtain the type enum.</li>

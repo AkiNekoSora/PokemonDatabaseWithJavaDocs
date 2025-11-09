@@ -9,8 +9,16 @@ import javax.swing.JButton;
 import javax.swing.JLayeredPane;
 
 /**
+ * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <p>
  * Used to display the success results from Checking the next evolution
- * Contains:
+ * </p>
+ * <h>IMPORTANT DEPENDENCIES</h>
+ * <ul>
+ *     <li>CheckNextEvoPage: Sends the user here if the comparison is successful.</li>
+ *     <li>GuiHelper: Used to create the base panel and add important items to the page.</li>
+ * </ul>
+ * <h>CONTAINS</h>
  * <ul>
  * <li>Constructor - Builds the base design using GUI helper</li>
  * <li>getMainPanel - returns the main panel for this page</li>

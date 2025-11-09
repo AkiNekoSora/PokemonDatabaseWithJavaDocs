@@ -8,9 +8,11 @@ import java.math.BigDecimal;
 import java.util.Objects;
 
 /**
- * Class Name: Pokémon
- * Purpose: Used to create new Pokémon.
- * Contains:
+ * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <p>
+ * Used to create a new Pokémon.
+ * </p>
+ * <h>CONTAINS</h>
  * <ul>
  * <li>Constructor</li>
  * <li>Getters/Setters</li>

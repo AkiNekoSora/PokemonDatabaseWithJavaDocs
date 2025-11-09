@@ -11,7 +11,13 @@ import java.awt.*;
 
 /**
  * Used to as the base to call all other custom design choices. (Scroll Lists)
- * Contains:
+ * </p>
+ * <h>IMPORTANT DEPENDENCIES</h>
+ * <ul>
+ *     <li>GuiHelper: Called by this class to create the scroll bar.</li>
+ *     <li>BasicComboBoxUI: Extends this class.</li>
+ * </ul>
+ * <h>CONTAINS</h>
  * <ul>
  * <li>createArrowButton (calls class)</li>
  * <li>createPopup</li>

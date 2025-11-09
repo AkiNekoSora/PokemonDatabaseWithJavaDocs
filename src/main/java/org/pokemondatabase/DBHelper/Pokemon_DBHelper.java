@@ -7,10 +7,20 @@ import javax.swing.table.DefaultTableModel;
 import java.util.ArrayList;
 
 /**
+ * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <p>
  * Used for the Pokémon table to accept SQL queries (with execute and getExecuteResults) and
  * prepare the SQL queries using Select, insert, update, delete, and selectToTable. Holds all
  * current column types as variables.
- * Created using the SQLHelper GUI
+ * </p>
+ * <h>IMPORTANT DEPENDENCIES</h>
+ * <ul>
+ *     <li>
+ *         DBHelper: DBHelper calls this class to bring it into scope when other classes call the
+ *         DBHelper.
+ *     </li>
+ * </ul>
+ * <h2>Created using the SQLHelper GUI</h2>
  */
 public class Pokemon_DBHelper {
 	private final String TABLE_NAME = "Pokemon";
