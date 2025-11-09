@@ -10,22 +10,18 @@ import javax.swing.*;
 import org.pokemondatabase.Pokemon;
 
 /**
- * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Used to ask the user if they are sure they want to delete. If accepted, it deletes
  * the Pokémon from the system and moves to the Delete Success Page
  * </p>
- * <h>IMPORTANT DEPENDENCIES</h>
+ * <header>IMPORTANT DEPENDENCIES</header>
  * <ul>
  *     <li>GuiHelper: Used to create the base panel and add important items to the page.</li>
  * </ul>
- * <h>CONTAINS</h>
- * <ul>
- * <li>Constructor - Builds the base design using GUI helper</li>
- * <li>getMainPanel - returns the main panel for this page</li>
- * </ul>
  */
 public class DeletePage extends JPanel {
+    /** List of Pokémon */
     public List<Pokemon> pokemonDB;
     private final JLayeredPane pane;
 
@@ -33,6 +29,8 @@ public class DeletePage extends JPanel {
      * Class Constructor
      * Builds the base design using GUI helper. Adds the text, buttons and button actions.
      * @param mainApp MainMenuPage Gui main menu
+     * @param pokemon Pokémon to be deleted
+     * @param pokemonStorage Storage of the Pokémon list
      */
     public DeletePage(MainMenuPage mainApp, Pokemon pokemon, List<Pokemon> pokemonStorage) {
         GuiHelper helper = new GuiHelper(mainApp);

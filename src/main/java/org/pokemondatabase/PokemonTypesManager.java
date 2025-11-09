@@ -7,12 +7,12 @@ import org.pokemondatabase.exceptions.NoDuplicateTypesException;
 import java.util.Objects;
 
 /**
- * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Used to hold up to two Pokémon Types. Verifies that a secondary type is not the same as the
  * primary type. Prints a nicer version of types if there is one or two.
  * </p>
- * <h>IMPORTANT DEPENDENCIES</h>
+ * <header>IMPORTANT DEPENDENCIES</header>
  * <ul>
  *     <li>PokemonTypes: Required to create each PokemonTypesManager</li>
  * </ul>

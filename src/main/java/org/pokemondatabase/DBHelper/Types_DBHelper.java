@@ -7,13 +7,13 @@ import javax.swing.table.DefaultTableModel;
 import java.util.ArrayList;
 
 /**
- * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Used for the Pokémon table to accept SQL queries (with execute and getExecuteResults) and
  * prepare the SQL queries using Select, insert, update, delete, and selectToTable. Holds all
  * current column types as variables.
  * </p>
- * <h>IMPORTANT DEPENDENCIES</h>
+ * <header>IMPORTANT DEPENDENCIES</header>
  * <ul>
  *     <li>
  *         DBHelper: DBHelper calls this class to bring it into scope when other classes call the
@@ -24,6 +24,17 @@ import java.util.ArrayList;
  */
 public class Types_DBHelper {
 	private final String TABLE_NAME = "Types";
+
+	/**
+	 * Defines constant values for the Type database columns.
+	 * <p>
+	 * These constants are used throughout the application to reference database fields.
+	 * </p>
+	 * <ul>
+	 *     <li>{@code type_id} – Type’s unique Type number.</li>
+	 *     <li>{@code type_name} – Type’s name.</li>
+	 * </ul>
+	 */
 	public static final String type_id = "type_id";
 	public static final String type_name = "type_name";
 
@@ -32,6 +43,7 @@ public class Types_DBHelper {
 	/**
 	 * Class Constructor
 	 * Used to bring DBHelper into the scope
+	 * @param dbHelper Brings the Database Helper into scope to be able to access the DB.
 	 */
 	public Types_DBHelper(DBHelper dbHelper) {
 		this.helper = dbHelper;
@@ -109,7 +121,7 @@ public class Types_DBHelper {
 	 * @param whatValue The value to search for within whatField
 	 * @param sortField The field that the data will be sorted by
 	 * @param sort Use ASC or DESC to specify the sorting order
-	 * @return ArrayList<ArrayList<Object>> - this means it returns a 2D Array of object, can be any type.
+	 * @return {ArrayList<ArrayList<Object>>} - this means it returns a 2D Array of object, can be any type.
 	 */
 	public ArrayList<ArrayList<Object>> select(String fields, String whatField, String whatValue, String sortField, String sort) {
 		return helper.executeQuery(prepareSQL(fields, whatField, whatValue, sortField, sort));
@@ -121,7 +133,7 @@ public class Types_DBHelper {
 	 * Used to run all other queries that do not fit into the select statement.
 	 * Used when you expect a return to the screen
 	 * @param query The SQL command that would be entered at the command line for a SQL query
-	 * @return ArrayList<ArrayList<Object>> - this means it returns a 2D Array of object, can be any type.
+	 * @return {ArrayList<ArrayList<Object>>} - this means it returns a 2D Array of object, can be any type.
 	 */
 	public ArrayList<ArrayList<Object>> getExecuteResult(String query) {
 		return helper.executeQuery(query);

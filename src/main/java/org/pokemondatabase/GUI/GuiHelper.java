@@ -22,43 +22,16 @@ import org.pokemondatabase.PokemonTypesManager;
 import static java.lang.Integer.parseInt;
 
 /**
- * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Used to be called by all GUI pages to perform necessary GUI designs and processes.
  * </p>
- * <h>IMPORTANT DEPENDENCIES</h>
+ * <header>IMPORTANT DEPENDENCIES</header>
  * <ul>
  *     <li>
  *         All other pages: All GUI pages call this helper to create base panels, buttons, text,
  *         and all other important items.
  *     </li>
- * </ul>
- * <h>CONTAINS</h>
- * <ul>
- * <li>Constructor - Builds the base design using GUI helper</li>
- * <li>getFont - Used to get font</li>
- * <li>createBasePanel - Called by all pages to create the base of the panel.</li>
- * <li>addButton - Called by other methods in ths class to create a button</li>
- * <li>addSmallButton - Calls add button but makes it small</li>
- * <li>addMediumButton - Calls add button but makes it medium</li>
- * <li>addLargeButton - Calls add button but makes it Large</li>
- * <li>updatePokémonList - Updates the Pokémon List when search is used</li>
- * <li>addPokémonList - Creates a Pokémon list using a ScrollPane and calls to get List items</li>
- * <li>createPokémonListItem - Creates a single list item</li>
- * <li>convertToPokemonList - converts Database to list</li>
- * <li>addLabel - Adds specified text to the panel</li>
- * <li>addLabelWithSpecifics - add specified text to the panel (Specify font and size)</li>
- * <li>addLabelWithImage - Add a text label with an image using addImageScaled</li>
- * <li>addErrorLabel - Adds an error label (Smaller and red)</li>
- * <li>addTextField - Adds a place for the user to enter text</li>
- * <li>addSearchField - Adds a place for the user to enter text (Larger for Search)</li>
- * <li>addTextArea - Adds a bigger place for the user to enter text</li>
- * <li>addDropdown - Add a dropdown the user can use.</li>
- * <li>addImageScaled - Scaled an image to the text</li>
- * <li>addImageIcon - Add an image to the panel</li>
- * <li>addTextBackgroundImage - Add image to the background</li>
- * <li>isDigit - Verifies it is a digit</li>
- * <li>isDigitOrPeriod - verifies it is a digit or period</li>
  * </ul>
  */
 public class GuiHelper {
@@ -66,8 +39,24 @@ public class GuiHelper {
     public JPanel foregroundPanel;
 
     private final Color titleColor = new Color(36, 37, 40);
-    public final Color pokemonRed = new Color(239, 49, 49);
+    private final Color pokemonRed = new Color(239, 49, 49);
 
+    /**
+     * Font styles used throughout the application.
+     * <p>
+     * Each font for each GUI element:
+     * </p>
+     * <ul>
+     *     <li>{@code titleFont} – Main page titles.</li>
+     *     <li>{@code labelFont} – Labels and text elements.</li>
+     *     <li>{@code smallButtonFont} – Smaller buttons and controls.</li>
+     *     <li>{@code inputFont} – Text input fields (Courier New, plain, 16pt).</li>
+     *     <li>{@code errorFont} – Displaying error messages (Courier New, bold, 12pt).</li>
+     *     <li>{@code successFont} – Success notifications.</li>
+     *     <li>{@code pokemonListFont} – Pokémon list item text.</li>
+     *     <li>{@code bigFont} – Large headings or emphasis.</li>
+     * </ul>
+     */
     public final Font titleFont = getFont(52);
     public final Font labelFont = getFont(18);
     public final Font smallButtonFont = getFont(27);
@@ -79,6 +68,7 @@ public class GuiHelper {
 
     private JScrollPane pokemonScrollPane;
 
+    /** List of Pokémon Types used in a dropdown */
     public final String[] pokemonTypes = {"", "Normal", "Fire", "Fighting", "Water", "Flying", "Grass",
                 "Poison", "Electric", "Ground", "Psychic", "Rock", "Ice", "Bug", "Dragon",
                 "Ghost", "Dark", "Steel", "Fairy"};
@@ -286,7 +276,7 @@ public class GuiHelper {
      * in the parameter
      * @param convertedPokemonDB List of Pokémon converted from the DB
      * @param filteredPokemonList List of Filtered Pokémon
-     * @return
+     * @return JScrollPane
      */
     public JScrollPane updatePokemonList(List<Pokemon> convertedPokemonDB,
                                          List<Pokemon> filteredPokemonList) {
@@ -356,9 +346,9 @@ public class GuiHelper {
     }
 
     /**
-     * Calls the list of Pokémon in the database and creates a List<Pokémon> out of it.
-     * @param pokemonDatabase ArrayList<ArrayList<Object>> from the database
-     * @return List<Pokémon> of the database Pokémon
+     * Calls the list of Pokémon in the database and creates a {List<Pokémon>} out of it.
+     * @param pokemonDatabase {ArrayList<ArrayList<Object>>} from the database
+     * @return {List<Pokémon>} of the database Pokémon
      */
     public List<Pokemon> convertToPokemonList(ArrayList<ArrayList<Object>> pokemonDatabase) {
         List<Pokemon> convertedList = new ArrayList<>();
@@ -586,7 +576,7 @@ public class GuiHelper {
      * @param x int x location
      * @param y int y location
      * @param width int width of ComboBox
-     * @return JComboBox<String>
+     * @return {JComboBox<String>}
      */
     public JComboBox<String> addDropdown(String[] options, int x, int y, int width) {
         // CREATE THE DROPDOWN WITH SPECIFIED OPTIONS

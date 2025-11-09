@@ -17,17 +17,17 @@ import org.pokemondatabase.exceptions.InvalidPokedexNumberException;
 import org.pokemondatabase.exceptions.InvalidPokemonTypeException;
 
 /**
- <h>PURPOSE/PRIMARY FUNCTION</h>
+ <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  *     Used for all the methods that interact with the Pokémon Class. Uses the userInputHelper
  *     class to loop until the user gives a valid input. Uses Text class to color the output to
  *     look nicer in the CLI
  * </p>
- * <h>IMPORTANT DEPENDENCIES</h>
+ * <header>IMPORTANT DEPENDENCIES</header>
  * <ul>
  *     <li>UserInputHelper: Called throughout to get user information for the CLI</li>
  * </ul>
- * <h>Includes methods that allow the user to:</h>
+ * <header>Includes methods that allow the user to:</header>
  * <ul>
  * <li>Add a Pokémon using the CMI</li>
  * <li>Uses methods in this class that add each item before using them to create new Pokémon and
@@ -42,6 +42,7 @@ import org.pokemondatabase.exceptions.InvalidPokemonTypeException;
  * </ul>
  */
 public class PokemonManager {
+    /** Brings the UserInputHelper into scope to get user input for the CLI */
     public UserInputHelper userInputHelper;
     private final Text text;
     private final PokemonTypes pokemonTypes;
@@ -135,6 +136,12 @@ public class PokemonManager {
         return userInputHelper.getValidPokemonName("Enter Pokémon Name: ");
     }
 
+    /**
+     * Formats the Pokémon’s name to have first letter of each word capital and the rest are
+     * lowercase.
+     * @param pokemonName String of the Pokémon’s name
+     * @return Formatted String of the Pokémon’s name
+     */
     public String formatPokemonName(String pokemonName) {
         if (pokemonName == null || pokemonName.isEmpty()) {
             return pokemonName;

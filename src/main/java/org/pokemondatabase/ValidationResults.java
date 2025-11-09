@@ -4,19 +4,13 @@
 package org.pokemondatabase;
 
 /**
- * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Used to hold a boolean and String for results
  * </p>
- * <h>IMPORTANT DEPENDENCIES</h>
+ * <header>IMPORTANT DEPENDENCIES</header>
  * <ul>
  *     <li>PokemonManager: Calls this class to pass around results and Pokemon</li>
- * </ul>
- * <h>CONTAINS</h>
- * <ul>
- * <li>Constructor</li>
- * <li>Overloaded Constructor</li>
- * <li>Getters</li>
  * </ul>
  */
 public class ValidationResults {

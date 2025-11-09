@@ -6,7 +6,7 @@ package org.pokemondatabase;
 import java.util.List;
 
 /**
- * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <ul>
  * <li>Used to start the system.</li>
  * <li>Prints the Pokémon database main menu.</li>

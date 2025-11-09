@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"org.pokemondatabase"},{"l":"org.pokemondatabase.DBHelper"},{"l":"org.pokemondatabase.exceptions"},{"l":"org.pokemondatabase.GUI"},{"l":"org.pokemondatabase.GUI.CustomGUIDesigns"}];updateSearchResults();

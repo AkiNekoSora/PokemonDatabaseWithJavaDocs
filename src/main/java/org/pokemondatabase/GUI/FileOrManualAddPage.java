@@ -10,19 +10,14 @@ import javax.swing.JFrame;
 import javax.swing.JLayeredPane;
 
 /**
- * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Allows the user to choose how they want to add a Pokémon
  * </p>
- <h>IMPORTANT DEPENDENCIES</h>
+ <header>IMPORTANT DEPENDENCIES</header>
  * <ul>
  *     <li>FilePage and AddManual: The two buttons on the page.</li>
  *     <li>GuiHelper: Used to create the base panel and add important items to the page.</li>
- * </ul>
- * <h>CONTAINS</h>
- * <ul>
- * <li>Constructor - Builds the base design using GUI helper</li>
- * <li>getMainPanel - returns the main panel for this page</li>
  * </ul>
  */
 public class FileOrManualAddPage extends JFrame {

@@ -12,24 +12,15 @@ import javax.swing.*;
 import org.pokemondatabase.*;
 
 /**
- * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Used to create the add manual page for the GUI. Allows the user to enter data for the Pokémon
  * and validates all information given. Returns errors to the screen if there are any issues.
  * </p>
- * <h>IMPORTANT DEPENDENCIES</h>
+ * <header>IMPORTANT DEPENDENCIES</header>
  * <ul>
  *     <li>PokemonManager: Uses quite a few methods to test if the information given was valid.</li>
  *     <li>GuiHelper: Used to create the base panel and add important items to the page.</li>
- * </ul>
- * <h>CONTAINS</h>
- * <ul>
- * <li>Constructor - Builds the base design using GUI helper</li>
- * <li>hideErrors - hides all error messages</li>
- * <li>handleSubmission - handles the processes for the user input file</li>
- * <li>Is Digit or Period</li>
- * <li>IsDigit</li>
- * <li>getMainPanel - returns the main panel for this page</li>
  * </ul>
  */
 public class AddManualPage extends JFrame {

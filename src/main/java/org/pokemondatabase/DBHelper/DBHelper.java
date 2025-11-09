@@ -8,12 +8,12 @@ import java.sql.*;
 import java.util.ArrayList;
 
 /**
- * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Used as a base to be able to connect and close the database, and has methods that can be
  * called by both subclasses to interact with database tables.
  * </p>
- * <h>IMPORTANT DEPENDENCIES</h>
+ * <header>IMPORTANT DEPENDENCIES</header>
  * <ul>
  *     <li>
  *         MainMenuPage: Calls this class so that it can be used by all other classes as the
@@ -26,12 +26,13 @@ import java.util.ArrayList;
 public class DBHelper {
 	private String DATABASE_NAME;
 	private Connection connection;
+	/** States if the application is currently connected to the database. */
 	public Boolean connected = false;
 
+	/** Database helper for Pokémon Table queries and operations. */
 	public final Pokemon_DBHelper pokemon;
+	/** Database helper for Pokémon Type queries and operations. */
 	public final Types_DBHelper types;
-
-	// CONSTRUCTOR (used to call the other helpers)
 
 	/**
 	 * Class Constructor
@@ -151,7 +152,7 @@ public class DBHelper {
 	 * Connects to the database to call a pre-made query. Collects the results and returns them
 	 * as an ArrayList of ArrayList Objects.
 	 * @param sql The SQL query as a string. Either created by the programmer or using the prepareSQL method.
-	 * @return ArrayList<ArrayList<Object>>
+	 * @return {ArrayList<ArrayList<Object>>}
 	 */
 	public ArrayList<ArrayList<Object>> executeQuery(String sql) {
 		ArrayList<ArrayList<Object>> result = new ArrayList<ArrayList<Object>>();

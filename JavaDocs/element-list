@@ -1,0 +1,5 @@
+org.pokemondatabase
+org.pokemondatabase.DBHelper
+org.pokemondatabase.exceptions
+org.pokemondatabase.GUI
+org.pokemondatabase.GUI.CustomGUIDesigns

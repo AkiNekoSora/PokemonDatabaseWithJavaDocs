@@ -11,21 +11,14 @@ import javax.swing.JLayeredPane;
 import org.pokemondatabase.DBHelper.DBHelper;
 
 /**
- * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Used to let the user choose what they would like to do in the system. Contains buttons to go
  * to FileOrManualAddPage, ListPage, ComparePage, CheckNextEvoPage
  * </p>
- * <h>IMPORTANT DEPENDENCIES</h>
+ * <header>IMPORTANT DEPENDENCIES</header>
  * <ul>
  *     <li>GuiHelper: Used to create the base panel and add important items to the page.</li>
- * </ul>
- * <h>CONTAINS</h>
- * <ul>
- * <li>Constructor - Builds the base design using GUI helper</ul>
- * <li>goToPage</ul>
- * <li>getMainMenuLayeredPane</ul>
- * <li>getMainPanel - returns the main panel for this page</ul>
  * </ul>
  */
 public class MainMenuPage extends JFrame {
@@ -37,6 +30,7 @@ public class MainMenuPage extends JFrame {
     private final JButton comparePokemonStatsButton;
     private final JButton checkNextEvolutionButton;
 
+    /** DBHelper used to give access to the database */
     public DBHelper db;
 
     /**

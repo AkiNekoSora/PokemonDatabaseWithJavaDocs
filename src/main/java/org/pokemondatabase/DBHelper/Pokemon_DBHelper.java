@@ -7,13 +7,13 @@ import javax.swing.table.DefaultTableModel;
 import java.util.ArrayList;
 
 /**
- * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Used for the Pokémon table to accept SQL queries (with execute and getExecuteResults) and
  * prepare the SQL queries using Select, insert, update, delete, and selectToTable. Holds all
  * current column types as variables.
  * </p>
- * <h>IMPORTANT DEPENDENCIES</h>
+ * <header>IMPORTANT DEPENDENCIES</header>
  * <ul>
  *     <li>
  *         DBHelper: DBHelper calls this class to bring it into scope when other classes call the
@@ -24,6 +24,24 @@ import java.util.ArrayList;
  */
 public class Pokemon_DBHelper {
 	private final String TABLE_NAME = "Pokemon";
+
+	/**
+	 * Defines constant values for the Pokémon database columns.
+	 * <p>
+	 * These constants are used throughout the application to reference database fields.
+	 * </p>
+	 * <ul>
+	 *     <li>{@code pokedex_number} – Pokémon’s unique Pokédex number.</li>
+	 *     <li>{@code pokemon_name} – Pokémon’s name.</li>
+	 *     <li>{@code next_evolution_level} – What level the Pokémon evolves next.</li>
+	 *     <li>{@code weight} – Pokémon’s weight.</li>
+	 *     <li>{@code height} – Pokémon’s height.</li>
+	 *     <li>{@code has_been_caught} – States if the Pokémon has been caught.</li>
+	 *     <li>{@code pokedex_entry} – Pokédex description of the Pokémon.</li>
+	 *     <li>{@code primary_type} – Pokémon’s primary type.</li>
+	 *     <li>{@code secondary_type} – Pokémon’s secondary type (if any).</li>
+	 * </ul>
+	 */
 	public static final String pokedex_number = "pokedex_number";
 	public static final String pokemon_name = "pokemon_name";
 	public static final String next_evolution_level = "next_evolution_level";
@@ -39,6 +57,7 @@ public class Pokemon_DBHelper {
 	/**
 	 * Class Constructor
 	 * Used to bring DBHelper into the scope
+	 * @param dbHelper Database Helper used to give access to the Database
 	 */
 	public Pokemon_DBHelper(DBHelper dbHelper) {
 		this.helper = dbHelper;
@@ -199,7 +218,7 @@ public class Pokemon_DBHelper {
 	 * @param whatValue The value to search for within whatField
 	 * @param sortField The field that the data will be sorted by
 	 * @param sort Use ASC or DESC to specify the sorting order
-	 * @return ArrayList<ArrayList<Object>> - this means it returns a 2D Array of object, can be any type.
+	 * @return {ArrayList<ArrayList<Object>>} - this means it returns a 2D Array of object, can be any type.
 	 */
 	public ArrayList<ArrayList<Object>> select(String fields, String whatField, String whatValue, String sortField, String sort) {
 		return helper.executeQuery(prepareSQL(fields, whatField, whatValue, sortField, sort));
@@ -211,7 +230,7 @@ public class Pokemon_DBHelper {
 	 * Used to run all other queries that do not fit into the select statement.
 	 * Used when you expect a return to the screen
 	 * @param query The SQL command that would be entered at the command line for a SQL query
-	 * @return ArrayList<ArrayList<Object>> - this means it returns a 2D Array of object, can be any type.
+	 * @return {ArrayList<ArrayList<Object>>} - this means it returns a 2D Array of object, can be any type.
 	 */
 	public ArrayList<ArrayList<Object>> getExecuteResult(String query) {
 		return helper.executeQuery(query);

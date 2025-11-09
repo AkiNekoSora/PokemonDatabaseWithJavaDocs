@@ -8,18 +8,10 @@ import java.math.BigDecimal;
 import java.util.Objects;
 
 /**
- * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Used to create a new Pokémon.
  * </p>
- * <h>CONTAINS</h>
- * <ul>
- * <li>Constructor</li>
- * <li>Getters/Setters</li>
- * <li>toString</li>
- * <li>3 private methods that are used by the toString method that changes the output to be
- * easier to understand and look nicer.</li>
- * </ul>
  */
 public class Pokemon {
 
@@ -83,42 +75,66 @@ public class Pokemon {
     public String getPokedexEntry() {return pokedexEntry;}
 
     //SETTERS
-    /** @param pokemonName String Pokémon Name */
+    /**
+     * @param pokemonName String Pokémon Name
+     * @return String success message
+     */
     public String setPokemonName(String pokemonName) {
         this.pokemonName = formatPokemonName(pokemonName);
         return "Pokémon Name updated to: " + this.pokemonName;
     }
-    /** @param pokedexNumber String Pokédex Number */
+    /**
+     * @param pokedexNumber String Pokédex Number
+     * @return String success message
+     */
     public String setPokedexNumber(int pokedexNumber) {
         this.pokedexNumber = pokedexNumber;
         return "Pokédex Number has been updated to: " + String.valueOf(this.pokedexNumber);
     }
-    /** @param pokemonTypes PokemonTypesManager Pokémon Types (1 or 2) */
+    /**
+     * @param pokemonTypes PokemonTypesManager Pokémon Types (1 or 2)
+     * @return String success message
+     */
     public String setPokemonType(PokemonTypesManager pokemonTypes) {
         this.pokemonTypes = pokemonTypes;
         return "Pokémon Type has been updated to: " + pokemonTypes;
     }
-    /** @param nextEvolutionLevel Integer Pokémon's next evolution number */
+    /**
+     * @param nextEvolutionLevel Integer Pokémon's next evolution number
+     * @return String success message
+     */
     public String setNextEvolutionLevel(Integer nextEvolutionLevel) {
         this.nextEvolutionLevel = nextEvolutionLevel;
         return "Pokémon Next Evolution as been updated to: " + String.valueOf(this.nextEvolutionLevel);
     }
-    /** @param pokemonWeightPounds BigDecimal Pokémon Weight */
+    /**
+     * @param pokemonWeightPounds BigDecimal Pokémon Weight
+     * @return String success message
+     */
     public String setPokemonWeightPounds(BigDecimal pokemonWeightPounds) {
         this.pokemonWeightKg = pokemonWeightPounds;
         return "Pokémon Weight has been updated to: " + String.valueOf(this.pokemonWeightKg);
     }
-    /** @param pokemonHeightMeters BigDecimal Pokémon Height */
+    /**
+     * @param pokemonHeightMeters BigDecimal Pokémon Height
+     * @return String success message
+     */
     public String setPokemonHeightMeters(BigDecimal pokemonHeightMeters) {
         this.pokemonHeightMeters = pokemonHeightMeters;
         return "Pokémon Height has been updated to: " + String.valueOf(this.pokemonHeightMeters);
     }
-    /** @param pokemonIsCaught Boolean Pokémon Caught Status */
+    /**
+     * @param pokemonIsCaught Boolean Pokémon Caught Status
+     * @return String success message
+     */
     public String setPokemonIsCaught(boolean pokemonIsCaught) {
         this.pokemonIsCaught = pokemonIsCaught;
         return "'Has Pokémon been caught?' has been updated to: " + hasPokemonBeenCaught();
     }
-    /** @param pokedexEntry String Pokémon entry for Pokédex */
+    /**
+     * @param pokedexEntry String Pokémon entry for Pokédex
+     * @return String success message
+     */
     public String setPokedexEntry(String pokedexEntry) {
         this.pokedexEntry = pokedexEntry;
         return "Pokémon Name updated to: \"" + pokedexEntry + "\"";

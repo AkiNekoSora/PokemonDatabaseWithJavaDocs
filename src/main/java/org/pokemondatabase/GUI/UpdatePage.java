@@ -11,24 +11,15 @@ import javax.swing.*;
 import org.pokemondatabase.*;
 
 /**
- * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Has all the information of the Pokémon in editable text fields or dropdowns. Allows the user
  * to change information and when they submit it changes the Pokémon information in the list.
  * </p>
- * <h>IMPORTANT DEPENDENCIES</h>
+ * <header>IMPORTANT DEPENDENCIES</header>
  * <ul>
  *     <li>PokemonInfoPage: Used to send the User to this page</li>
  *     <li>GuiHelper: Used to create the base panel and add important items to the page.</li>
- * </ul>
- * <h>CONTAINS</h>
- * <ul>
- * <li>Constructor - Builds the base design using GUI helper</li>
- * <li>hideErrors - hides all error messages</li>
- * <li>handleSubmission - handles the processes for the user input file</li>
- * <li>Is Digit or Period</li>
- * <li>IsDigit</li>
- * <li>getMainPanel - returns the main panel for this page</li>
  * </ul>
  */
 public class UpdatePage extends JFrame {

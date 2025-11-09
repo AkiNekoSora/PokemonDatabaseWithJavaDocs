@@ -9,26 +9,22 @@ import java.awt.*;
 import java.util.List;
 
 /**
- * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Displays Pokémon information to the GUI. Allows the user to Update information, change if the
  * Pokémon has been caught or not and delete the Pokémon
  * </p>
- * <h>IMPORTANT DEPENDENCIES</h>
+ * <header>IMPORTANT DEPENDENCIES</header>
  * <ul>
  *     <li>
  *         GuiHelper: Used to create the base panel and add important items to the page. And the
  *         button to this page is created by the GuiHelper as well.
  *     </li>
  * </ul>
- * <h>CONTAINS</h>
- * <ul>
- * <li>Constructor - Builds the base design using GUI helper</li>
- * <li>getMainPanel - returns the main panel for this page</li>
- * </ul>
  */
 public class PokemonInfoPage {
     private final JLayeredPane pane;
+    /** List of Pokémon */
     public List<Pokemon> pokemonDB;
 
     /**

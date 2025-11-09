@@ -15,22 +15,16 @@ import org.pokemondatabase.PokemonManager;
 import org.pokemondatabase.ValidationResults;
 
 /**
- * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Purpose: Used to create the file page for the GUI. Allows the user to add a file to the system
  * and sorts through the lines to enter Pokémon into the database. Returns errors to the screen
  * if there are any issues.
  * </p>
- * <h>IMPORTANT DEPENDENCIES</h>
+ * <header>IMPORTANT DEPENDENCIES</header>
  * <ul>
  *     <li>PokemonManager: Uses quite a few methods to test if the information given was valid.</li>
  *     <li>GuiHelper: Used to create the base panel and add important items to the page.</li>
- * </ul>
- * <h>CONTAINS</h>
- * <ul>
- * <li>Constructor - Builds the base design using GUI helper</li>
- * <li>handleSubmission - handles the processes for the user input file</li>
- * <li>getMainPanel - returns the main panel for this page</li>
  * </ul>
  */
 public class AddFilePage extends JFrame {

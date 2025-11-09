@@ -7,17 +7,17 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Extends DefaultListCellRenderer
  * Used to change how the JList elements are displayed (Drop-Down and Pokémon List)
  * </p>
- * <h>IMPORTANT DEPENDENCIES</h>
+ * <header>IMPORTANT DEPENDENCIES</header>
  * <ul>
  *     <li>GuiHelper: Called by this class to create the combo box renderer.</li>
  *     <li>DefaultListCallRender: Extends this class.</li>
  * </ul>
- * <h>CONTAINS</h>
+ * <header>CONTAINS</header>
  * <ul>
  *      <li>Override getListCellRendererComponent</li>
  * </ul>

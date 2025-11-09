@@ -7,20 +7,15 @@ import java.awt.Container;
 import javax.swing.*;
 
 /**
- * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Used to display the success results from Comparison Page
  * </p>
- * <h>IMPORTANT DEPENDENCIES</h>
+ * <header>IMPORTANT DEPENDENCIES</header>
  * <ul>
  *     <li>ComparePage: Sends the user to this page if the comparison is successful.</li>
  *     <li>GuiHelper: Used to create the base panel and add important items to the page.</li>
  * </ul>
- * <h>CONTAINS</h>
- * <ul>
- * <li>Constructor - Builds the base design using GUI helper</li>
- * <li>getMainPanel - returns the main panel for this page</li>
- * <ul>
  */
 public class CompareSuccessPage extends JPanel {
     private final JLayeredPane pane;
@@ -30,6 +25,7 @@ public class CompareSuccessPage extends JPanel {
      * Class Constructor
      * Builds the base design using GUI helper. Adds the text, buttons and button actions.
      * @param mainApp MainMenuPage Gui main menu
+     * @param successText Success text to display to GUI
      */
     public CompareSuccessPage(MainMenuPage mainApp, String successText) {
         helper = new GuiHelper(mainApp);

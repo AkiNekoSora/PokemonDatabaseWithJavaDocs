@@ -8,17 +8,17 @@ import javax.swing.plaf.basic.BasicScrollBarUI;
 import java.awt.*;
 
 /**
- * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Used to create a custom scroll bar and the track for the lists.
  * </p>
- * <h>IMPORTANT DEPENDENCIES</h>
+ * <header>IMPORTANT DEPENDENCIES</header>
  * <ul>
  *     <li>GuiHelper: Called by this class to create the scroll bar.</li>
  *     <li>CustomComboBoxUI: Called by this class to create the scroll bar.</li>
  *     <li>BasicScrollBarUI: Extends this class.</li>
  * </ul>
- * <h>CONTAINS</h>
+ * <header>CONTAINS</header>
  * <ul>
  *      <li>configureScrollBarColors</li>
  *      <li>paintThumb</li>
@@ -29,7 +29,9 @@ import java.awt.*;
  * </ul>
  */
 public class CustomScrollBarUI extends BasicScrollBarUI {
+    /** A color constant: Pokémon blue theme (RGB: 88, 112, 248). */
     public final Color pokemonBlue = new Color(88, 112, 248);
+    /** A color constant: Pokémon Dark blue theme (RGB: 42, 61, 172). */
     public final Color pokemonDarkBlue = new Color(42, 61, 172);
     private final int scrollBarCorners = 12;
 

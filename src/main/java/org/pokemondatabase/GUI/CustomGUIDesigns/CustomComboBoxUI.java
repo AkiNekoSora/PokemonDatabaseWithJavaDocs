@@ -12,18 +12,19 @@ import java.awt.*;
 /**
  * Used to as the base to call all other custom design choices. (Scroll Lists)
  * </p>
- * <h>IMPORTANT DEPENDENCIES</h>
+ * <header>IMPORTANT DEPENDENCIES</header>
  * <ul>
  *     <li>GuiHelper: Called by this class to create the scroll bar.</li>
  *     <li>BasicComboBoxUI: Extends this class.</li>
  * </ul>
- * <h>CONTAINS</h>
+ * <header>CONTAINS</header>
  * <ul>
  * <li>createArrowButton (calls class)</li>
  * <li>createPopup</li>
  * </ul>
  */
 public class CustomComboBoxUI extends BasicComboBoxUI {
+    /** A color constant: Pokémon blue theme (RGB: 88, 112, 248). */
     public final Color pokemonBlue = new Color(88, 112, 248);
 
     /**

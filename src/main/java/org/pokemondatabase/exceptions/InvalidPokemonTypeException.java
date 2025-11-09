@@ -4,7 +4,7 @@
 package org.pokemondatabase.exceptions;
 
 /**
- * <h>PURPOSE/PRIMARY FUNCTION</h>
+ * <header>PURPOSE/PRIMARY FUNCTION</header>
  * <p>
  * Exception class used when a user enters an invalid Pokemon type.
  * </p>
